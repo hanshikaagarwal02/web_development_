@@ -1,0 +1,103 @@
+body{
+    perspective: 800px;
+}
+h1{
+    color: red;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h2{
+    color: brown;
+    text-decoration:underline;
+    text-align: center;
+
+}
+main{
+    background-color: aquamarine;
+    border: 5px solid black;
+}
+
+.dream11{
+    background-color:rgb(220, 238, 246);
+}
+.container{
+    height: 300px;
+    width:400px;
+    border:5px solid black;
+    margin: 50px 20px;
+    transition: 800ms;
+    position: relative;
+    transform-style: preserve-3d;
+    display: inline-block;
+
+    
+} 
+.container:hover{
+    transform:rotateY(180deg)
+}
+.side1,.side2,.side3,.side4,.side5,.side6,.side7,.side8,.side9,.side10,.side11,.side12{
+    width:100%;
+    height:100%;
+    position: absolute;
+}
+
+.side2{
+    background-color:rgb(224, 20, 224);
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+.side3{background-color: aqua;
+    background: url("https://th.bing.com/th/id/OIP.7QPfOrKgiVF8VfjMU_URugHaD4?w=342&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-size:cover;
+
+}
+.side1{
+    background-color: aqua;
+    background: url("https://th.bing.com/th/id/OIP.5RuShuqcUJXj5SxEoC8qJQHaE7?w=236&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-size:cover;
+}
+.side4{background-color: aqua;
+    background: url("https://th.bing.com/th/id/OIP.5a4l48QGBBsX6JZxlelLEwHaEo?w=289&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-size:cover;
+
+}
+.side5{background-color: aqua;
+    background: url("https://th.bing.com/th/id/OIP.RVP6AkwlUmghLHRnHpezyAHaEK?w=308&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-size:cover;
+
+}
+.side6{background-color: aqua;
+    background: url("https://c.ndtvimg.com/2019-09/u2gop0no_shikhar-dhawan-_625x300_17_September_19.jpg");
+    background-size:cover;
+
+}
+.side7{background-color: aqua;
+    background: url("https://th.bing.com/th/id/OIP.j9WV-cCxJ3B8QPPn_-J69AHaFS?w=256&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-size:cover;
+
+}
+.side8{background-color: aqua;
+    background: url("https://th.bing.com/th/id/OIP.JP3Y4DkRZ1ffi96jW6ocQgHaHH?w=192&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-size:cover;
+
+}
+.side9{background-color: aqua;
+    background: url("https://th.bing.com/th/id/OIP.rHaT4bZHg6Rp9UaxjFUqmQHaEK?w=315&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-size:cover;
+
+}
+.side10{background-color: aqua;
+    background: url("https://th.bing.com/th/id/OIP.yo7kqQl-0dL24W7pK0xxXgHaE8?w=252&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-size:cover;
+}
+.side11{
+    background-color: aqua;
+    background: url("https://th.bing.com/th/id/OIP.ftOKt2WWxua4AnWQ7lS2pgHaEK?w=302&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-size:cover;
+}
+.side12{
+    background-color: aqua;
+    background: url("https://th.bing.com/th/id/OIP.PRdt3tQ4MeNeX_SZ0ZwC8AHaE8?w=240&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-size:cover;
+}
