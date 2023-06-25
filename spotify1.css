@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: rgb(7, 7, 23);
+}
+.container{
+    
+        background-color: rgb(7,7,23);
+        display: flex;
+        justify-content:space-between;
+        
+        align-items: center;
+    
+    
+}
+.menu{
+    display:flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.logo img{
+    display: flex;
+    align-items: flex-start;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    padding-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.menu img{
+    height:60px;
+    padding:10px;
+    
+}
+.menu button{
+    width:200px;
+    height:20px;
+   
+}
+section{
+    width:95vw;
+    height:165vh;
+    border:0.3px solid white;
+    padding:1rem;
+    margin:2px auto;
+  
+    
+    
+}
+
+.mainbody img{
+    
+   height:250px;
+   margin:5px;
+   border:0.5px solid white;
+    transition:0.5s ;
+}
+.mainbody{
+    color: white;
+    border-right:thin solid white;
+    border-position: sticky;
+    top:0;
+    
+}
+.mainbody img:hover{
+    transform:scale(1.08);
+    
+}
+.mainbody2{
+    color:white;
+    display: flex;
+    
+    
+}
+.mb3{
+   display: flex;
+align-content: flex-start;
+}
+#queue{
+    margin-left: 60%;
+    background-color: rgb(7, 7, 23);
+    color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fig img{
+    height:80px;
+    border-radius: 10%;
+    
+}
+.fig span {
+    display:flex;
+    /* justify-content: center; */
+    align-items:center;
+    
+}
+.fig img:hover{
+    opacity: 0.6;
+    cursor:pointer;
+    filter:grayscale(80%)
+}
+
+.fig i{
+    position:absolute;
+    /* top:20%;
+    left:20%; */
+    z-index:10;
+    transition:300ms;
+    /* font-size: 1.5rem; */
+    transform: scale(0);
+    transition-timing-function: cubic-bezier(0.34,1.56,0.64,1);
+}
+    
+.fig img:hover+i{
+    transform:scale(3.3);
+}
+.artist img{
+    border-radius:50%;
+    width:80px;
+   height: 80px; 
+    
+}
+#artist{
+    display: flex;
+    white-space:nowrap;
+     /* position:static;  */
+}
+/*figcaption{
+    height: 200px;
+}*/
+.artist div{
+    margin-top: 90px;
+    align-items: center;
+    
+}
+.Englishsong img{
+        height:90px;
+        
+}
+.Englishsong{
+    display: flex;
+        justify-content: space-around;
+}
+div .p{
+    display: flex;
+    margin-top: 100px;
+    justify-content: left;
+
+}
+.hindisong img{
+    height:90px;
+}
+.hindisong{
+    display: flex;
+}
+.mainbody2 img{
+    display:inline-block;
+    margin-top: 50px;
+   margin-left: 0;
+    height: 80px;
+    
+}
+.mainbody2 p{
+    text-align:left;
+    display:table;
+    
+}
+.mainbody2{
+    
+    white-space:nowrap ;
+}
